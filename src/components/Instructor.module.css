@@ -1,0 +1,57 @@
+.instructor {
+  padding: 4rem 0;
+  background-color: var(--white);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  border-radius: var(--border-radius);
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--text-dark);
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-light);
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--primary);
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary);
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+} 

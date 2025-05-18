@@ -1,0 +1,515 @@
+.pricingPlans {
+  padding: 3rem 0;
+  background-color: #f8f7ff;
+}
+
+.features {
+  padding: 4rem 0;
+  background-color: #f8f7ff;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--text-dark);
+  margin-bottom: 3rem;
+}
+
+.plansContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.planCard {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+}
+
+.popularTag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.planDuration {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.planPrice {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.period {
+  font-size: 1rem;
+  color: var(--text-light);
+  margin-left: 0.25rem;
+}
+
+.discount {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.featuresList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.checkIcon {
+  color: var(--primary);
+  min-width: 16px;
+  margin-top: 3px;
+}
+
+.ctaButton {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: auto;
+}
+
+.ctaButton:hover {
+  background-color: var(--primary-light);
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.featureCard {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.iconContainer {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-light);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 1.5rem;
+}
+
+.featureTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.featureDescription {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+  .plansContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .featureGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .plansContainer {
+    grid-template-columns: 1fr;
+  }
+  
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Common Styles */
+.sectionTitle {
+  font-size: 2rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+/* Mission Section */
+.missionSection {
+  padding: 5rem 0;
+  background-color: var(--white);
+}
+
+.missionContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.missionText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.missionText p {
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.missionImage {
+  display: flex;
+  justify-content: center;
+}
+
+.imageRounded {
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Seva Section */
+.sevaSection {
+  padding: 5rem 0;
+  background-color: var(--light-bg);
+}
+
+.sevaContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.sevaIntro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: var(--text-dark);
+}
+
+.sevaPoints {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sevaPoint {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.sevaIcon {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.sevaImagesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+}
+
+.sevaImageWrapper:first-child {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+.sevaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Philosophy Section */
+.philosophySection {
+  padding: 5rem 0;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.philosophyCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.philosophyCard {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.philosophyCard:hover {
+  transform: translateY(-5px);
+}
+
+.philosophyIcon {
+  margin-bottom: 1.5rem;
+}
+
+.philosophyTitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.philosophyDesc {
+  color: var(--text-light);
+}
+
+/* Stats Section */
+.statsSection {
+  padding: 5rem 0;
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+}
+
+.statsSection .sectionTitle {
+  color: var(--white);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.statCard {
+  padding: 1.5rem;
+}
+
+.statIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.statNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Join Section */
+.joinSection {
+  padding: 5rem 0;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.joinText {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.joinSubtext {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.joinButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.primaryButton, .secondaryButton {
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.primaryButton {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.primaryButton:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-3px);
+}
+
+.secondaryButton {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+.secondaryButton:hover {
+  background-color: rgba(99, 39, 176, 0.05);
+  transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .philosophyCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .missionContent,
+  .sevaContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .missionImage {
+    order: -1;
+  }
+  
+  .sevaImagesGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .sevaImageWrapper:first-child {
+    grid-column: 1;
+  }
+  
+  .philosophyCards {
+    grid-template-columns: 1fr;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .joinButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Placeholder Styles */
+.placeholderImage {
+  width: 100%;
+  height: 300px;
+  background-color: #f0e6ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.placeholderLarge {
+  height: 250px;
+}
+
+.placeholderText {
+  font-size: 1.2rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.iconPlaceholder {
+  width: 60px;
+  height: 60px;
+  background-color: #f0e6ff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.iconPlaceholder::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: var(--primary);
+  border-radius: 50%;
+} 
