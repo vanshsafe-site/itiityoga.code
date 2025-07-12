@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <h1>Iti Yogashram</h1>
+          <h1>Iti Iti Yogashram</h1>
         </Link>
 
         <div className={`${styles.menu} ${isMenuOpen ? styles.active : ''}`}>
