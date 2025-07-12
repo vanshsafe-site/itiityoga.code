@@ -56,22 +56,6 @@
   line-height: 1.5;
 }
 
-.mapContainer {
-  margin: 1rem 0;
-}
-
-.mapPlaceholder {
-  width: 100%;
-  height: 250px;
-  background-color: #f0e6ff;
-  border-radius: var(--border-radius);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  font-weight: 500;
-}
-
 .socialMedia {
   margin-top: 1rem;
 }

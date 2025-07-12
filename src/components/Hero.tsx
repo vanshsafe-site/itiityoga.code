@@ -22,10 +22,10 @@ const Hero = () => {
         <div className={styles.imageContainer}>
           <div className={styles.image}>
             <Image 
-              src="/images/yoga-pose.jpg" 
+              src="/Yogi-Nishant-Iti-Iti-Yogaa.png" 
               alt="Woman in yoga pose at sunset" 
               fill
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: 'contain' }}
               priority
             />
           </div>

@@ -7,26 +7,26 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'Yoga Enthusiast',
-      image: '/images/testimonial-1.jpg',
-      content: 'Iti Iti Yogashram has completely transformed my life. The instructors are amazing and the community is so supportive.',
+      name: 'Vansh',
+      role: 'Yoga Student',
+      image: '/vansh.png',
+      content: 'Nishanth Sir is an excellent yoga teacher! He is calm, well-disciplined, and truly understands each student\'s needs. His teaching style is slow and steady, ensuring that everyone can follow along comfortably. His yoga teachings have been extremely helpful, and I highly recommend him to anyone looking for a dedicated and professional instructor!',
       rating: 5
     },
     {
       id: 2,
-      name: 'Kevin Johnson',
-      role: 'Yoga Enthusiast',
-      image: '/images/testimonial-2.jpg',
-      content: 'Iti Iti Yogashram has completely transformed my life. The instructors are amazing and the community is so supportive.',
+      name: 'Karla',
+      role: 'Student from Mexico',
+      image: '/karla.png',
+      content: 'Thank you so much for this months with yoga sessions, my life going better with my health condition Thank you Nishant for your patience, support and learning about my inner peaceful self, my online classes from Mexico helped me a lot, and changed my life totally.',
       rating: 5
     },
     {
       id: 3,
-      name: 'Sarah Johnson',
-      role: 'Yoga Enthusiast',
-      image: '/images/testimonial-3.jpg',
-      content: 'Iti Iti Yogashram has completely transformed my life. The instructors are amazing and the community is so supportive.',
+      name: 'Yoga Student',
+      role: 'Student',
+      image: '/yogastu.png',
+      content: 'Exceptional experience! This yoga class is not like other yoga classes that only focuses on you physical health but this one also focuses on your mental health. Since the day I started doing yoga I\'ve started feeling stress free and happy. Thank you so much sir for you expert guidance and ever smiling yoga.',
       rating: 5
     }
   ];

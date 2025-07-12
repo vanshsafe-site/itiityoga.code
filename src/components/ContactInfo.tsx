@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ContactInfo.module.css';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaFacebookF, FaWhatsapp, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 const ContactInfo = () => {
   return (
@@ -17,8 +17,8 @@ const ContactInfo = () => {
           </div>
           <div className={styles.infoContent}>
             <h3>Our Location</h3>
-            <p>123 Yoga Street, Wellness City</p>
-            <p>Harmony District, 400001</p>
+            <p>Near Meerapur Gol Park Chauraha</p>
+            <p>Prayagraj, India</p>
           </div>
         </div>
         
@@ -28,8 +28,7 @@ const ContactInfo = () => {
           </div>
           <div className={styles.infoContent}>
             <h3>Phone Number</h3>
-            <p>+1 (555) 123-4567</p>
-            <p>+1 (555) 765-4321</p>
+            <p>(+91) 808-150-6872</p>
           </div>
         </div>
         
@@ -39,8 +38,7 @@ const ContactInfo = () => {
           </div>
           <div className={styles.infoContent}>
             <h3>Email Address</h3>
-            <p>contact@itiyogashram.com</p>
-            <p>info@itiyogashram.com</p>
+            <p>contact@itiitiyoga.com</p>
           </div>
         </div>
         
@@ -56,19 +54,13 @@ const ContactInfo = () => {
         </div>
       </div>
       
-      <div className={styles.mapContainer}>
-        <div className={styles.mapPlaceholder}>
-          <div className={styles.mapText}>Google Map Location</div>
-        </div>
-      </div>
-      
       <div className={styles.socialMedia}>
         <h3>Follow Us</h3>
         <div className={styles.socialIcons}>
-          <a href="#" className={styles.socialIcon}><FaFacebookF /></a>
-          <a href="#" className={styles.socialIcon}><FaTwitter /></a>
-          <a href="#" className={styles.socialIcon}><FaInstagram /></a>
-          <a href="#" className={styles.socialIcon}><FaYoutube /></a>
+          <a href="https://www.facebook.com/profile.php?id=100094601637698" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}><FaFacebookF /></a>
+          <a href="https://api.whatsapp.com/send/?phone=918081506872&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}><FaWhatsapp /></a>
+          <a href="https://www.instagram.com/iti_iti_yogashram/" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}><FaInstagram /></a>
+          <a href="https://www.youtube.com/@ItiItiYogashram" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}><FaYoutube /></a>
         </div>
       </div>
     </div>

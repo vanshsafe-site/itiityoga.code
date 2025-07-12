@@ -53,9 +53,14 @@ const MissionFeatures = () => {
               </p>
             </div>
             <div className={styles.missionImage}>
-              <div className={styles.placeholderImage}>
-                <div className={styles.placeholderText}>Yoga Practice</div>
-              </div>
+              <Image
+                src="/yogapractice.png"
+                alt="Yoga Practice at Iti Iti Yoga"
+                width={500}
+                height={400}
+                className={styles.image}
+                priority
+              />
             </div>
           </div>
         </div>
@@ -93,19 +98,32 @@ const MissionFeatures = () => {
             <div className={styles.sevaImages}>
               <div className={styles.sevaImagesGrid}>
                 <div className={styles.sevaImageWrapper}>
-                  <div className={`${styles.placeholderImage} ${styles.placeholderLarge}`}>
-                    <div className={styles.placeholderText}>Yoga for Children</div>
-                  </div>
+                  <Image
+                    src="/yogaforchildren.jpg"
+                    alt="Yoga for Children at Iti Iti Yoga"
+                    width={800}
+                    height={400}
+                    className={styles.sevaImage}
+                    priority
+                  />
                 </div>
                 <div className={styles.sevaImageWrapper}>
-                  <div className={styles.placeholderImage}>
-                    <div className={styles.placeholderText}>Mental Health</div>
-                  </div>
+                  <Image
+                    src="/deepmeditation.png"
+                    alt="Deep Meditation and Mental Health"
+                    width={400}
+                    height={300}
+                    className={styles.sevaImage}
+                  />
                 </div>
                 <div className={styles.sevaImageWrapper}>
-                  <div className={styles.placeholderImage}>
-                    <div className={styles.placeholderText}>Corporate Yoga</div>
-                  </div>
+                  <Image
+                    src="/internationalyogaday.jpeg"
+                    alt="International Yoga Day Celebration"
+                    width={400}
+                    height={300}
+                    className={styles.sevaImage}
+                  />
                 </div>
               </div>
             </div>

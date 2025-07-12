@@ -8,8 +8,8 @@ const Instructor = () => {
       <div className={styles.container}>
         <div className={styles.imageContainer}>
           <Image 
-            src="/images/instructor.jpg" 
-            alt="Yoga instructor leading a class" 
+            src="/groupyoga.png" 
+            alt="Group yoga session" 
             width={500}
             height={400}
             className={styles.image}

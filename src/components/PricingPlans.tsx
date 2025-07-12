@@ -39,10 +39,9 @@ const PricingPlans = () => {
             <div className={styles.popularTag}>Most Popular</div>
             <h3 className={styles.planDuration}>12 Months</h3>
             <div className={styles.planPrice}>
-              <span className={styles.price}>$99</span>
-              <span className={styles.period}>/month</span>
+              <span className={styles.price}>₹5,999</span>
+              <span className={styles.period}>/year</span>
             </div>
-            <div className={styles.discount}>Save 30%</div>
             <div className={styles.features}>
               <div className={styles.feature}>
                 <FaCheck className={styles.checkIcon} />
@@ -68,10 +67,9 @@ const PricingPlans = () => {
           <div className={styles.planCard}>
             <h3 className={styles.planDuration}>6 Months</h3>
             <div className={styles.planPrice}>
-              <span className={styles.price}>$129</span>
-              <span className={styles.period}>/month</span>
+              <span className={styles.price}>₹4,999</span>
+              <span className={styles.period}>/6 months</span>
             </div>
-            <div className={styles.discount}>Save 20%</div>
             <div className={styles.features}>
               {planFeatures.map((feature, index) => (
                 <div key={`6month-${index}`} className={styles.feature}>
@@ -93,10 +91,9 @@ const PricingPlans = () => {
           <div className={styles.planCard}>
             <h3 className={styles.planDuration}>3 Months</h3>
             <div className={styles.planPrice}>
-              <span className={styles.price}>$149</span>
-              <span className={styles.period}>/month</span>
+              <span className={styles.price}>₹2,999</span>
+              <span className={styles.period}>/3 months</span>
             </div>
-            <div className={styles.discount}>Save 10%</div>
             <div className={styles.features}>
               {planFeatures.map((feature, index) => (
                 <div key={`3month-${index}`} className={styles.feature}>
