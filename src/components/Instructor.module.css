@@ -15,11 +15,16 @@
 
 .imageContainer {
   position: relative;
+  padding: 1rem;
 }
 
 .image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
   border-radius: var(--border-radius);
   object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -53,5 +58,23 @@
   .container {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .imageContainer {
+    padding: 1.5rem;
+    order: -1;
+  }
+
+  .image {
+    max-height: 400px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+
+  .quote {
+    text-align: left;
   }
 } 

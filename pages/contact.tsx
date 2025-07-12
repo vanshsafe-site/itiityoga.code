@@ -51,8 +51,13 @@ export default function Contact() {
         }
 
         @media (max-width: 768px) {
+          .contact-container {
+            padding: 2rem 1.5rem;
+          }
+
           .contact-grid {
             grid-template-columns: 1fr;
+            gap: 2rem;
           }
         }
       `}</style>
@@ -61,6 +66,7 @@ export default function Contact() {
         .contact-image {
           width: 100%;
           height: auto;
+          max-height: 600px;
           border-radius: 10px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           object-fit: cover;
@@ -70,6 +76,17 @@ export default function Contact() {
           display: flex;
           justify-content: center;
           align-items: flex-start;
+          padding: 1rem;
+        }
+
+        @media (max-width: 768px) {
+          .image-container {
+            padding: 1.5rem;
+          }
+
+          .contact-image {
+            max-height: 400px;
+          }
         }
       `}</style>
     </>
